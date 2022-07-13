@@ -42,6 +42,11 @@ a {
     text-decoration: none;
 }
 
+.other {
+    position: absolute;
+    align-content: center;
+}
+
 /*h1 {
     align-content: center;
 }
