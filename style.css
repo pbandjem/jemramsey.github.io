@@ -9,18 +9,22 @@
 .shape {
     position: absolute;
     width: 800px;
-    top: 4rem;
-    left: 5rem;
+    top: 1rem;
+    left: .1rem;
 }
 
 .card {
-    width: 400px;
-    height: auto;
+    position: absolute;
+    top: 6.9rem;
+    left: 14.65rem;
+    width: 220px;
+    height: 9.3rem;
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 0rem;
     background: rgba(255, 255, 255, .7);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+
 }
 
 .card-title {
