@@ -8,30 +8,45 @@
 
 .shape {
     position: absolute;
-    width: 700px;
+    width: 750px;
     top: 1rem;
-    left: .1rem;
+    right: 2rem;
 }
 
 .card {
     position: absolute;
-    top: 6.9rem;
-    left: 14.65rem;
-    width: 220px;
-    height: 9.3rem;
+    align-content: center;
+    top: 14rem;
+    left: 12rem;
+    width: 270px;
+    height: auto;
     padding: 2rem;
-    border-radius: 0rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
+
+.card-title {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-size: 1.4rem;
+}
+
+.card2 {
+    position: absolute;
+    top: 6.5rem;
+    right: 18.5rem;
+    width: 207px;
+    height: 8.7rem;
+    padding: 2rem;
+    border-radius: 0.1rem;
     background: rgba(255, 255, 255, .7);
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
 
 }
 
-.card-title {
-    margin-top: 0;
-    margin-bottom: .5rem;
-    font-size: 1.2rem;
-}
 
 p, a {
     font-size: 1rem;
@@ -42,10 +57,11 @@ a {
     text-decoration: none;
 }
 
-.other {
-    position: absolute;
-    align-content: center;
+c {
+    font-size: 1rem;
 }
+
+
 
 /*h1 {
     align-content: center;
