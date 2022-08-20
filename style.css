@@ -13,7 +13,7 @@
     align-content: center;
     top: 10rem;
     left: 40rem;
-    width: 300px;
+    width: 310px;
     height: auto;
     padding: 2rem;
     border-radius: 1rem;
@@ -49,11 +49,11 @@
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 h1 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 a {
@@ -67,11 +67,12 @@ a {
     .card {
         position: absolute;
         align-content: center;
+        text-align: initial;
         top: 2rem;
         left: 3rem;
-        width: 230px;
+        width: 260px;
         height: auto;
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 1rem;
         background: rgba(255, 255, 255, .7);
         -webkit-backdrop-filter: blur(7px);
@@ -95,7 +96,7 @@ a {
         top: 10rem;
         left: 0;
         width: 350px;
-        float: left;
+        float: initial;
     }
 
     .menu {
@@ -114,6 +115,10 @@ a {
 
     p, a {
         font-size: .5rem;
+    }
+
+    h3 {
+        font-size: 1rem;
     }
     
 }
