@@ -48,18 +48,14 @@
     backdrop-filter: blur(7px);
 }
 
-p {
-    font-size: 0.8rem;
-}
-
 h1 {
     font-size: 1.5rem;
 }
 
-a {
+a, p {
     color: #4d4ae8;
     text-decoration: none;
-    font-size: .8rem;
+    font-size: 0.7rem;
 }
 
 @media only screen and (max-width:500px) {
@@ -114,7 +110,7 @@ a {
     }
 
     p, a {
-        font-size: .5rem;
+        font-size: .54rem;
     }
 
     h1 {
