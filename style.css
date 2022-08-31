@@ -49,7 +49,7 @@
 }
 
 p {
-    font-size: 1.1rem;
+    font-size: .8rem;
 }
 
 h1 {
@@ -59,7 +59,7 @@ h1 {
 a {
     color: #4d4ae8;
     text-decoration: none;
-    font-size: 1rem;
+    font-size: .8rem;
 }
 
 @media only screen and (max-width:500px) {
@@ -69,8 +69,8 @@ a {
         align-content: center;
         text-align: initial;
         top: 2rem;
-        left: 3rem;
-        width: 260px;
+        left: 3.2rem;
+        width: 265px;
         height: auto;
         padding: 1rem;
         border-radius: 1rem;
