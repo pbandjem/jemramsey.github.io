@@ -48,6 +48,20 @@
     backdrop-filter: blur(7px);
 }
 
+.music {
+    position: absolute;
+    align-content: center;
+    top: 40rem;
+    left: 7rem;
+    width: 310px;
+    height: auto;
+    padding: 2rem;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, .7);
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
+
 h1 {
     font-size: 1.5rem;
 }
@@ -107,6 +121,25 @@ a, p {
         background: rgba(255, 255, 255, .7);
         -webkit-backdrop-filter: blur(7px);
         backdrop-filter: blur(7px); 
+    }
+
+    .music {
+        position: absolute;
+        align-content: center;
+        text-align: initial;
+        top: 34rem;
+        left: 3.2rem;
+        width: 265px;
+        height: auto;
+        padding: 1rem;
+        border-radius: 1rem;
+        background: rgba(255, 255, 255, .7);
+        -webkit-backdrop-filter: blur(7px);
+        backdrop-filter: blur(7px);
+    }
+
+    #player {
+        width: 100%;
     }
 
     p, a {
