@@ -40,6 +40,33 @@
         <h3><b> i'm Jem Ramsey,<br /> a Jr. Cybersecurity Analyst</b></h3>
 
     </div>
+    
+    <div class="slideshow">
+        <img class"slide active" src="image1.jpg" alt="Image 1">
+        <img class="slide" src="image2.jpg" alt="Image 2">
+        
+        <button onclick="prevSlide()">Prev</button>
+        <button onclick="nextSlide()">Next</button>
+    </div>
+            
+    <script>
+      let currentSlide = 0;
+      const slides = document.querySelectorAll(.'slide');
+      
+      function showSlide(n) {
+          slides[currentSlide].classList.remove('active');
+          currentSlide = (n + slides.length) % slides.length;
+          slides[currentSlide].classList.add('active');
+      }
+        
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+        
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+    
 
 
 
