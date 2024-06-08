@@ -74,9 +74,9 @@ body {
 
 .slideshow-wrapper {
     position: relative;
-    top: 2rem; /* Adjust top position as needed */
+    top: 0rem; /* Adjust top position as needed */
     left: 40rem;
-    width: 500px;
+    width: 600px;
     
     /* Adjust right position as needed */
 }
