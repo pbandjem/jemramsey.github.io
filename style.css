@@ -76,7 +76,8 @@ body {
     position: relative;
     top: 0rem; /* Adjust top position as needed */
     left: 40rem;
-    width: 600px;
+    bottom: 10rem;
+    width: 700px;
     
     /* Adjust right position as needed */
 }
