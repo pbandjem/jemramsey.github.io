@@ -22,6 +22,8 @@ body {
     backdrop-filter: blur(7px);
 }
 
+
+
 .container {
     position: relative;
     top: 0;
@@ -68,13 +70,21 @@ body {
 }
 
 /*Start*/
-* {box-sizing:border-box}
+/** {box-sizing:border-box}*/
 
+.slideshow-wrapper {
+    position: relative;
+    top: 15rem; /* Adjust top position as needed */
+    left: 40rem;
+    width: 500px;
+    
+    /* Adjust right position as needed */
+}
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin-left: 50px;
+    
+    position: relative;
+
 }
 
 /* Hide the images by default */
@@ -130,7 +140,7 @@ body {
 }
 
 /* The dots/bullets/indicators */
-.dot {
+.dot-container {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -232,8 +242,6 @@ a, p {
         -webkit-backdrop-filter: blur(7px);
         backdrop-filter: blur(7px);
     }
-    
-    
     
     
     #player {
